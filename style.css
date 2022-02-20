@@ -1,0 +1,14 @@
+.life-the-game {
+  display: flex;
+  gap: 10px;
+}
+
+.game-field {
+  border: 1px solid #000000;
+  align-self: flex-start;
+}
+
+h1 {
+  text-align: center;
+  color: #ff0000;
+}

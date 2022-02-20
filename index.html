@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="life-the-game">
+      <div class="container">
+        <div class="game-settings">
+          <h2>Настройки игры</h2>
+          <table>
+            <tr>
+              <td>Ширина игрового поля:</td>
+              <td>
+                <input id="game-field-width" type="number" value="100" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>Высота игрового поля:</td>
+              <td>
+                <input id="game-field-height" type="number" value="100" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>Скорость игры:</td>
+              <td>
+                <input id="game-speed" type="number" value="100" />
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="game-control">
+          <h2>Управление игрой</h2>
+          <button id="create">Создать игру</button>
+          <button id="start" disabled>Начать игру</button>
+          <button id="stop" disabled>Остановить игру</button>
+        </div>
+      </div>
+
+      <canvas id="game-field" class="game-field"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
